@@ -23,7 +23,7 @@ var err error
 
 func init() {
 
-	url := os.Getenv("DATABASE_URL")
+	url := os.Getenv("HEROKU_POSTGRESQL_BLUE_URL")
 	connection, _ := pq.ParseURL(url)
 	connection += "sslmode=require"
 	Db, err = sql.Open(config.Config.SQLDriver, connection)
