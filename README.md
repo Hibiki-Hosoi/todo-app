@@ -1,8 +1,4 @@
 # こんにちは
 Go言語で作ったTodoアプリです。
 
-```
-go run main.go
-```
-
-でサーバーを起動し、`http://localhost:8080/`にアクセスしてください。
+https://calm-wave-06219-eb119caeeec8.herokuapp.com/
