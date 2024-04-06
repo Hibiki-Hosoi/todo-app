@@ -1,2 +1,3 @@
-.log
-.sql
+webapp.log
+webapp.sql
+yarn-error.log
