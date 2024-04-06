@@ -1,2 +1,4 @@
-.log
-.sql
+.DS_Store
+webapp.log
+webapp.sql
+yarn-error.log
